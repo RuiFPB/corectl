@@ -11,8 +11,10 @@ const char *STR_LIST = "list";
 int N_CORES = 0;
 
 void printusage(char *execname) {
-  printf("Usage:\n\t%s park - Parks half of the cpu cores\n\t%s unpark - "
-         "Unparks all cores\n\t%s list - Lists CPU status\n\n",
+  printf("Usage:\n"
+         "\t%s park - Parks half of the cpu cores\n"
+         "\t%s unpark - Unparks all cores\n"
+         "\t%s list - Lists CPU status\n\n",
          execname, execname, execname);
   return;
 }
