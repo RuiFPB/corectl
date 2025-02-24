@@ -2,6 +2,8 @@
 
 A simple application to disable half of the CPU cores, possibly improving battery life on laptops. Linux does not do core parking like Windows, instead it tries to not move a process outside of the core it currently is on. This is still good for battery saving, but I wanted to test having only half of my cores active to possibly improve battery-life.
 
+> [!WARNING]
+> This program is only a proof of concept and not a finalised tool. If something happens, you are on your own!
 ------
 
 ## Usage
